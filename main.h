@@ -18,5 +18,5 @@ int _putchar(char c);
 int _puts(va_list args);
 int _strlen(const char *s);
 char *_strrev(char *s);
-int print_char(va_list args);
+int printf_char(va_list args);
 #endif /**MAIN_H*/
