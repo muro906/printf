@@ -1,7 +1,6 @@
 #include"main.h"
 /**
  * _putchar- prints a character to the stdout
- * _puts-Prints a string to the stdout
  * print_char-Prints both a character and a percent specifier
  * @args: va_list arguments
  * Return: Number of characters printed
@@ -11,6 +10,11 @@ int _putchar(char c)
     write(1, &c, 1);
     return (1);
 }
+/**
+ * _puts-Prints a string to the stdout
+ * @args: va_list arguments
+ * Return: Number of characters printed
+*/
 int _puts(va_list args)
 {
     char *str = va_arg(args, char *);

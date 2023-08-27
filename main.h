@@ -19,4 +19,7 @@ int _puts(va_list args);
 int _strlen(const char *s);
 char *_strrev(char *s);
 int printf_char(va_list args);
+/*Functions to handle the %d specifiers*/
+int printf_dec(va_list args);
+int printf_integer(va_list args);
 #endif /**MAIN_H*/
